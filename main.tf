@@ -4,7 +4,7 @@ provider "azurerm" {
 
 # Resource Group
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-terraform-demo"
+  name     = "rg-terraform-ngato"
   location = "East US 2"
 }
 
