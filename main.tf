@@ -5,7 +5,7 @@ provider "azurerm" {
 # Resource Group
 resource "azurerm_resource_group" "rg" {
   name     = "rg-terraform-ngato"
-  location = "East US 2"
+  location = "Canada Central"
 }
 
 # Virtual Network
